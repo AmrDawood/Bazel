@@ -82,21 +82,22 @@ transition: background-color ease-in-out 1s ;
                       /*About Section Start*/
 /*------------------------------------------------------------------------------------------*/
 
-/* .typeEffect {
+.typeEffect {
+    color: #00c3da ;
     border-right: 3px solid #787878;
-    animation: glowingborder 500ms step-end infinite, typeeffect 2s steps(10) alternate infinite ;
+    animation: glowingborder 500ms step-end infinite/* , typeeffect 2s steps(10) alternate infinite  */;
 }
-@keyframes typeeffect{
+/* @keyframes typeeffect{
     0%{width: 0%;}
     10%{width: 0%;}
     80%{width: 100%;}
     100%{widows: 100%;}
-}
+} */
 @keyframes glowingborder{
     0%{border-color: transparent;}
     50%{border-color: #787878;}
     100%{border-color: transparent;}
-} */
+} 
 .who-we-are a:hover{
     color: white;
     background-color: black;
